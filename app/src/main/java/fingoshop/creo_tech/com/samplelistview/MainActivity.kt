@@ -10,10 +10,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var listview: ListView
     lateinit var edt_text: EditText
 
-  /*  lateinit var txt_name: Button
-    lateinit var listview: ListView
-    lateinit var edt_text: EditText
-*/
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
